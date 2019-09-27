@@ -16,11 +16,11 @@ h1 {
 h1+p{
   font-size: 25px;
   color: grey;
-  line-height: 30px;
+  line-height: 32px;
 }
 p {
-  margin-top: 10px;
-  font-size: 24px;
+  margin-top: 8px;
+  font-size: 20px;
   line-height: 30px;
 }
 h3 {
@@ -30,8 +30,11 @@ h3 {
 }
 ol, ul{
   list-style: disc outside;
+  padding: 4px 30px;
+  font-size: 20px;
+}
+h3+ol{
   padding: 10px 30px;
-  font-size: 24px;
 }
 li {
   padding-top: 6px;
@@ -41,6 +44,9 @@ li {
   font-style: italic;
   color: grey;
   font-size: 20px;
+   margin-left: -16px;
+   padding-left: 12px;
+  border-left: 3px solid black;
 }
 h4 {
   font-weight: 700;
