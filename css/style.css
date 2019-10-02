@@ -1,57 +1,91 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
 body {
-  /*background-image: url(../img/dc-online-media-mockup.jpg);*/
-  background-repeat: no-repeat;
-  background-position: top center;
+
   font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+li,
+blockquote{
   width: 700px;
   margin: 0 auto;
 }
 h1 {
+
   font-size: 45px;
   font-weight: 700;
   margin-top: 65px;
+
 }
 h1+p{
+
   font-size: 25px;
   color: grey;
   line-height: 32px;
 }
 p {
+
   margin-top: 8px;
   font-size: 20px;
   line-height: 30px;
+
 }
 h3 {
-  padding-top: 8px;
+
+  padding-top: 50px;
   font-size: 35px;
   font-weight: 700;
+
 }
 ol, ul{
+
   list-style: disc outside;
   padding: 4px 30px;
   font-size: 20px;
+
 }
 h3+ol{
   padding: 10px 30px;
 }
 li {
+
   padding-top: 6px;
   line-height: 30px;
+
 }
-.special{
+blockquote{
   font-style: italic;
   color: grey;
+  position: relative;
   font-size: 20px;
-   margin-left: -16px;
-   padding-left: 12px;
-  border-left: 3px solid black;
+
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+blockquote::before{
+  content: "";
+  position: absolute;
+  left: -20px;
+  height: 100%;
+  width: 2px;
+  background-color: #000;
+
+
 }
 h4 {
+
   font-weight: 700;
   font-size: 25px;
   padding-top: 16px;
+
 }
 a {
   color: grey;
@@ -59,4 +93,13 @@ a {
 }
 a:hover{
   text-decoration: underline;
+}
+
+img{
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
